@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: white;
+}
+
+body{
+    background-color: black !important;
+}
+
+/* nav bar */
+.title{
+    color: red !important;
+    font-size: 40px !important;
+}
+
+.hover{
+    background-color: red;
+    border-radius:50%;
+}
+.banner-image{
+    width: 100%;
+    /* height: 0%; */
+    margin:5px auto;
+}
+
+/*  */
+
+.card-image{
+    width: 70% !important;
+    height: 50% !important;
+}
+.card-color{
+    color: black;
+}
+.group-img{
+    width: 100px !important;
+    height: 100px !important;
+}
+.hr{
+    height: 88px !important;
+    color: red;
+}
+.m-botom{
+    margin-bottom: 0;
+}
+.footer{
+    margin: 0;
+    height: 50px;
+}
+.footer-text{
+    margin: 20px 25px;
+    color: black;
+    text-align: center;
+}
+.fab{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.btn-color{
+    background-color: red !important;
+    color: white !important;
+}
+
+@media screen and (max-width:700px){
+    .group-img{
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
+
+
+
+
