@@ -1,0 +1,48 @@
+*{
+    text-transform: capitalize;
+}
+/*body{
+    background-color: rgb(255, 0, 0);
+}
+div{
+    background-color: rgb(255, 255, 255);
+   
+}
+div.container{
+    border: 1px solid white;
+}
+hr{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+}
+.bg{
+    border:1px solid thistle;
+}
+.grid-layout.container{
+    border: 2px solid red;
+}
+.height200{
+    height: 130px;
+}
+*/
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.bg-img{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(245, 2, 2, 0.3)) , url(https://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+   
+}
+.banner{
+    
+    font-weight: 700;
+    color: white;
+    font-size: 100px;
+}
+
