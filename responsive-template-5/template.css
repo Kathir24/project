@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Ephesis&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+}
+
+/* header */
+.header{
+    background:linear-gradient(rgba(255, 255, 255, 0.105),rgba(255, 255, 255, 0.105)), url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+}
+/* nav bar */
+.bg-black-5{
+    background:linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.418));
+}
+
+.navbar-nav a{
+    color: #fff !important;
+    font-size: 10px;
+}
+.navbar-nav li{
+    padding: 0 20px !important;
+}
+
+/* header content */
+.header-content{
+    display: grid;
+    align-items: center;
+    min-height: 50vh;
+}
+.header-content h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+}
+.header-content p{
+    font-weight: 500;
+    font-size: 15px;
+    text-shadow:1px 1px 5px #fff;
+
+}
+.header-content .btn{
+    font-weight: 300 !important;
+    font-size: 13px;
+}
+/* about us */
+.about h2,.about h5,.about h6,.our-team h2,.portfolio h2{
+    font-weight: 300 !important;
+}
+.about p{
+    font-size: 12px;
+}
+.about h6{
+    font-size: 13px !important;
+}
+.bg-light-gray{
+    background-color: rgba(100, 148, 237, 0.230);
+    height: 12px;
+    width: 90%;
+}
+.design-value{
+    height: 12px;
+    width: 95%;
+    font-size: 8px;
+}
+.CODING-value{
+    height: 12px;
+    width: 75%;
+    font-size: 8px;
+}
+.MARKETING-value{
+    height: 12px;
+    width: 55%;
+    font-size: 8px;
+}
+
+/* subscribe */
+.subscribe input{
+    background-color: rgb(240, 240, 131) !important;
+    border: none !important;
+    border-radius: 0 !important;
+    height: 35px !important;
+    font-size: 13px !important;
+    margin: 10px 0 !important;
+}
+.fs-13px{
+    font-size:13px !important;
+}
+.fs-12px{
+    font-size: 12px;
+}
+.subscribe h3{
+    font-weight: 300 !important;
+}
+.subscribe .btn{
+    margin-top: 11px;
+}
+
+
+
+/* our team */
+.our-team img{
+    width: 60% !important;
+    margin: 0 auto;
+}
+.bg-secondary-dark{
+    background-color: rgb(53, 53, 53);
+}
+.card{
+    background-color:rgb(53, 53, 53) !important ;
+    margin: 30px 0;
+}
+.card .btn{
+    padding: 4px 16px 3px ;
+}
+.card .btn i{
+    font-size: 22px;
+    color: #fff;
+}
+
+/* portfolio */
+.portfolio .card{
+    position: relative;
+    padding: 0 ;
+    margin: 50px 0 !important;
+}
+.portfolio .card-body{
+    position: absolute;
+    padding: 8px;
+}
+.card-body h5{
+    font-size: 20px;
+    font-weight: 300 !important;
+}
+.card-body p{
+    font-size: 10px;
+}
+.bg-black-100{
+    background:linear-gradient(black,black) !important;
+    height: 100%;
+    width: 100%;
+}
+.card-body .i i {
+    font-size: 90px !important;
+}
+
+/* footer */
+.footer{
+    background:linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.404)),url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+}
+.footer input,.footer textarea{
+    margin: 10px auto;
+    width: 70%;
+}
+.footer .text-area{
+    height: 100px;
+}
+.footer-nav ul{
+    padding: 0;
+}
+.footer-nav ul li{
+    padding: 0 10px;
+    list-style: none;
+}
+.footer-nav a,.copyrights{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 13px;
+}
+.footer-nav a:hover{
+    color: #fff;
+}
+/* media 1100px */
+@media only screen and (max-width:1100px){
+    .our-team .card{
+        width: 14rem !important;
+        padding: 0 !important;
+    }
+}
+
+/* media 768px */
+@media only screen and (max-width:992px){
+    .our-team .card{
+        width: 21rem !important;
+    }
+}
+
+/* media 576px*/
+@media only screen and (max-width:576px){
+    .header-content h1{
+        font-size: 40px;
+    }
+    .header{
+        min-height: 80vh;
+    }
+    .header-content{
+        min-height: 35vh;
+    }
+    .navbar-nav li{
+      margin-top:10px;
+    }
+    /* subscribe */
+    .subscribe h3{
+        font-size: 20px;
+    }
+    /* our team */
+    .our-team .card{
+        width: 20rem !important;
+    }
+    /* footer */
+    .footer input,.footer textarea{
+        margin: 10px auto;
+        width: 90%;
+    }
+    .footer-nav ul li{
+        padding: 0;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
